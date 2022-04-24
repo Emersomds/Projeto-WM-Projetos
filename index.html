@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="shortcut icon" href="imagens/logo.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquiteto / Wanderson Marcos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/index.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+
+    <script src="script/progressbar.min.js"></script>
+    <!-- Parallax -->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
+</head>
+
+<body>
+    <header class="myStyl">
+        <div id="content">
+            <div id="user">
+                <span>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Galeria</a></li>
+                    </ul>
+                </span>
+            </div>
+            <span class="logo"><img src="imagens/logo.jpg" alt="logo">
+                <p>Sistema WM Projetos</p>
+            </span>
+            <div id="logout">
+                <a href="logar.php"><button><i class="fa fa-sign-in" aria-hidden="true"></i> login</button></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid">
+          <!-- slider -->
+          <div id="mainSlider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+              <li data-target="#mainSlider" data-slide-to="1"></li>
+              <li data-target="#mainSlider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagens/Banner1.jpg" class="d-block w-100" alt="Projetos de e-commerce">
+    
+                <!-- tirar classe d-none -->
+    
+                <div class="carousel-caption d-md-block">
+                  <h2>Quer criar Seu Projeto?</h5>
+                  <p>Conte conosco, tenho experiência e um grande portfólio.</p>
+                  <a href="#portfolio-area" class="main-btn">Ver portfólio</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/banner2.jpg" class="d-block w-100" alt="Engenharia de software">
+                <div class="carousel-caption d-md-block">
+                  <h2>Está querendo tirar o projeto do papel?</h5>
+                  <a href="#contact-area" class="main-btn">Entre em contato</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imagens/banner3.jpg" class="d-block w-100" alt="Manutenção em software">
+                <div class="carousel-caption d-md-block">
+                  <h2>Está buscando resultado e qualidade?</h5>
+                  <a href="#contact-area" class="main-btn">Entre em contato</a>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <!-- Sobre a empresa -->
+          <div id="about-area">
+            <div class="container">
+                <div class="row">
+                  <div class="col-12"> 
+                    <h3 class="main-title">WM Projetos</h3>
+                  </div>
+                  <div class="col-md-6">
+                    <img class="img-fluid" src="imagens/Wand.jpg" alt="Agência hDC">
+                  </div>
+                  <div class="col-md-6">
+                    <h3 class="about-title">Um Arquiteto que pensa no futuro</h3>
+                    <p>O arquiteto Wanderson Marcos tem como foco atender todos os clientes e concentrar sua atenção a todos os níveis de projeto,</p>
+                    <p>desde pequenas casas ou obras até os mais desejados e grandiosos trabalhos, desmistificando que apenas grandes projetos podem levar a assinatura Wanderson Marcos.</p>
+                    <p>O desejo do cliente em buscá-lo para ser o arquiteto do seu projeto é o prazer e a maior recompensa que ele pode ter e receber.</p>
+                    <p>O portfólio diversificado de projetos, atendendo as expectativas de cada cliente, onde resulta o sucesso do nome!</p>
+                    <ul id="about-list">
+                      <li><i class="fas fa-check"></i> Fachadas</li>
+                      <li><i class="fas fa-check"></i> Corte</li>
+                      <li><i class="fas fa-check"></i> Paisagismo</li>
+                      <li><i class="fas fa-check"></i> Interior</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+          </div>
+         
+          <!-- Dados da empresa -->
+          <div id="data-area">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3 col-xs-6 circle-box">
+                  <div id="circleA"></div>
+                  <p>Projetos entregues</p>
+                </div>
+                <div class="col-md-3 col-xs-6 circle-box">
+                  <div id="circleB"></div>
+                  <p>Clientes Felizes</p>
+                </div>
+                <div class="col-md-3 col-xs-6 circle-box">
+                  <div id="circleC"></div>
+                  <p>Indicações</p>
+                </div>  
+                <div class="col-md-3 col-xs-6 circle-box">
+                  <div id="circleD"></div>
+                  <p>Cafézinhos</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Time -->
+          <div id="team-area">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <h3 class="main-title">Feedback</h3>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="imagens/profile1.jpg" class="card-img-top" alt="Imagem de Perfil 1">
+                    <div class="card-body">
+                      <h5 class="card-title">Jhon Doe</h5>
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium eos sapiente libero totam eligendi accusamus quis! Aperiam totam ut perspiciatis, labore hic quidem aspernatur at, quas, suscipit quis ipsa itaque?</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="imagens/profile2.jpg" class="card-img-top" alt="Imagem de Perfil 2">
+                    <div class="card-body">
+                      <h5 class="card-title">Maria Mariana</h5>
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium eos sapiente libero totam eligendi accusamus quis! Aperiam totam ut perspiciatis, labore hic quidem aspernatur at, quas, suscipit quis ipsa itaque?</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="imagens/profile3.jpg" class="card-img-top" alt="Imagem de Perfil 3">
+                    <div class="card-body">
+                      <h5 class="card-title">Paul Baker</h5>
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium eos sapiente libero totam eligendi accusamus quis! Aperiam totam ut perspiciatis, labore hic quidem aspernatur at, quas, suscipit quis ipsa itaque?</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="imagens/profile4.jpg" class="card-img-top" alt="Imagem de Perfil 4">
+                    <div class="card-body">
+                      <h5 class="card-title">Karina Katarina</h5>
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium eos sapiente libero totam eligendi accusamus quis! Aperiam totam ut perspiciatis, labore hic quidem aspernatur at, quas, suscipit quis ipsa itaque?</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Sobre-->
+          <div id="apply-area">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 apply-box" id="company-img"></div>
+                <div class="col-md-6 apply-box" id="pattern-img">
+                  <h4 style="color: #00FF00; font-weight: 600;" >Sua trajetória vem de muito tempo no ramo da construção civil.</h4>
+                  <p style="color: #00FF00">Formado técnico em edificações pela
+                    escola técnica Fiec (Fundação <br> Indaiatubana de Educação
+                    e Cultura ) em 2003, .</p> <br>
+                  <p style="color: #00FF00">Formado em Aquitetura & Urbanismo
+                    pela CEUNSP <br>(Centro Universitário Nossa Senhora do Patrocínio)
+                    em 2011 </p>
+                  <a href="#" class="main-btn" id="apply-btn">Saiba Mais</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Portfólio -->
+          <div id="portfolio-area">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="main-title">Conheça nossos projetos</h3>
+                </div>
+                <div class="col-md-12" id="filter-btn-box">
+                  <button class="main-btn filter-btn active" id="all-btn">Todos</button>
+                  <button class="main-btn filter-btn" id="dev-btn">Fachadas</button>
+                  <button class="main-btn filter-btn" id="dsg-btn">Cortes</button>
+                  <button class="main-btn filter-btn" id="seo-btn">Térreo</button>
+                </div>
+                <div class="col-md-4 project-box dev">
+                  <img src="imagens/Fachada.jpg" class="img-fluid" alt="Projeto 1">
+                </div>
+                <div class="col-md-4 project-box dsg">
+                  <img src="imagens/Corte 1.jpg" class="img-fluid" alt="Projeto 2">
+                </div>
+                <div class="col-md-4 project-box seo">
+                  <img src="imagens/3D.jpg" class="img-fluid" alt="Projeto 3">
+                </div>
+                <div class="col-md-4 project-box dev">
+                  <img src="imagens/3D View 1.jpg" class="img-fluid" alt="Projeto 4">
+                </div>
+                <div class="col-md-4 project-box dsg">
+                  <img src="imagens/corte 2.jpg" class="img-fluid" alt="Projeto 5">
+                </div>
+                <div class="col-md-4 project-box seo">
+                  <img src="imagens/Planta.jpg" class="img-fluid" alt="Projeto 6">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Newsletter -->
+          <div id="news-area">
+            <div class="container">
+              <div class="col-md-12">
+                <h3 class="main-title">Fique por dentro das novidades</h3>
+              </div>
+              <p>Assine nossa lista de e-mails, e receba nossos conteúdos sobre Arquitetura e Urbanismo.</p>
+              <form action="">
+                <input type="text" class="form-control" id="email-input" name="email" placeholder="Seu melhor e-mail">
+                <input type="submit" id="news-btn" value="Inscrever">
+              </form>
+            </div>
+          </div>
+          <!-- Call to Action -->
+          <div id="call-area">
+            <div class="container">
+                <div class="row">
+                  <p>Deseja fazer um orçamento sem compromisso?</p>
+                  <button class="main-btn" id="call-btn">Orçar</button>
+                </div>
+              </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div id="contact-area">
+          <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="main-title">Entre em contato conosco</h3>
+                </div>
+                <div class="col-md-4 contact-box">
+                  <i class="fas fa-phone"></i>
+                  <p><span class="contact-tile">Ligue para:</span> (19)99999-9999</p>
+                  <p><span class="contact-tile">Horários:</span> 8:00 - 19:00</p>
+                </div>
+                <div class="col-md-4 contact-box">
+                  <i class="fas fa-envelope"></i>
+                  <p><span class="contact-tile">Envie um email:</span> contato@mail.com.br</p>
+                </div>
+                <div class="col-md-4 contact-box">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <p><span class="contact-tile">Venha tomar um café:</span> Rua Lorem Ipsum - 1314</p>
+                </div>
+                <div class="col-md-6" id="msg-box">
+                  <p style="color: rgb(148, 94, 94)">Ou nos deixe uma mensagem:</p>
+                </div>
+                <div class="col-md-6" id="contact-form">
+                  <form action="">
+                    <input type="text" class="form-control" placeholder="E-mail" name="email">
+                    <input type="text" class="form-control" placeholder="Assunto" name="subject">
+                    <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
+                    <input type="submit" class="main-btn">
+                  </form>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div id="copy-area">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                  <p>Desenvolvido por <a href="https://www.emwdeveloper.com" target="_blank">Emw Developer</a> &copy; 2022</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="script/scripts.js"></script>
+</body>
+
+</html>
